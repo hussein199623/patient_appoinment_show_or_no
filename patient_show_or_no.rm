@@ -1,0 +1,23 @@
+# patient_appoinment_show_or_no
+Dataset Description
+This dataset collects information from 100k medical appointments in Brazil and is focused on the question of whether or not patients show up for their appointment. 
+A number of characteristics about the patient are included in each row.
+
+1- ScheduledDay--> tells us on what day the patient set up their appointment.
+2- Neighborhood--> indicates the location of the hospital.
+3- Scholarship--> indicates whether or not the patient is enrolled in Brasilian welfare program Bolsa Família. 
+Be careful about the encoding of the last column: it says ‘No’ if the patient showed up to their appointment, 
+and ‘Yes’ if they did not show up. Are there trends that can be observed between the selected metrics?
+Have certain regions of the world been growing in your selected metrics better than others
+
+
+Conclusions
+1- The parecent of the patien who didn't attended to show is more 3 times than the poeple who attended
+2- The number of patient of daibetes is less than patient didn't have daibetes by 13 times
+3- As we see that JARDIM CAMBURI the most popular Neighbourhood and the less popular Neighbourhood is PARQUE INDSTRAL
+4- It's so clear that the parents car about thier chiledrn from 0 to 5 years and from 45 to 63 years to
+5- the number of patient that atteded and didn't had the SMS is more than the patient not atteded and receive the SMS we need to review the campain of SMS
+6- As we see that the most patient have Hipertension is from 50 to 68 year old and from 0 to 20 years is most patient didn't have the Hipertension
+7- there is nuber of female is more than male in the dataset
+limitations
+We need to review the campain of SMS beacuase there is number of patient that received the SMS and didn't attended is less than the number of patient that didn't received the SMS and they attended
